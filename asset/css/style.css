@@ -147,7 +147,7 @@ section {
 }
 .features-row {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     padding-bottom: 2rem;
 }
 .features-set {
