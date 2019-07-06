@@ -31,15 +31,12 @@ body {
 }
 .nav li {
     list-style: none;
-    /* padding: 0 7rem; */
-    /* font-size: 1.4rem !important; */
 }
 .nav li ul {
     display: flex;
 }
 .nav li ul li {
     padding: 0 0;
-    /* display: inline-flex; */
     vertical-align: middle;
     color: #ffffff;
 }
@@ -147,17 +144,13 @@ section {
 }
 .features-row {
     display: flex;
-    /* justify-content: space-between; */
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 .features-set {
     display: flex;
-    /* justify-content: space-between; */
     width: -webkit-fill-available;
     color: #6e6d6d;
-    /* word-break: break-word; */
 }
-.features-set h5 {}
 .features-set p {
     font-size: 1.3rem;
 }
