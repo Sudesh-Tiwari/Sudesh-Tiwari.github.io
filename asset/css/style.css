@@ -152,11 +152,15 @@ section {
 }
 .features-set {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     width: -webkit-fill-available;
+    color: #6e6d6d;
+    /* word-break: break-word; */
 }
 .features-set h5 {}
-.features-set p {}
+.features-set p {
+    font-size: 1.3rem;
+}
 
 /* Seven Container */
 .our-plans{
@@ -234,6 +238,7 @@ section {
 /* Copy Right */
 .copyright {
     display: flex;
+    justify-content: space-between;
 }
 .copyright div {
     color: #d6d6d6;
