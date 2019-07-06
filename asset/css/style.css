@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +10,6 @@ html {
 body {
     font-size: 1.8rem;
     font-family: 'Roboto', sans-serif;
-    font-family: 'Roboto:100', sans-serif;
 }
 .container {
     width: 100%;
@@ -23,10 +22,12 @@ body {
     background-color: #00000080;
     padding: 1rem 0;
     width: 100%;
+    z-index: 1;
 }
 .nav {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .nav li {
     list-style: none;
@@ -132,6 +133,30 @@ section {
 .desktop-mobile img {
     width: 55%;
 }
+/* Sixth Container */
+.features-title {
+    font-size: 3rem;
+    font-weight: 100;
+    color: #008bcb;
+    font-family: roboto;
+    text-align: center;
+    padding-top: 4rem;
+}
+.features {
+    padding: 5rem 0;
+}
+.features-row {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+}
+.features-set {
+    display: flex;
+    justify-content: space-between;
+    width: -webkit-fill-available;
+}
+.features-set h5 {}
+.features-set p {}
 
 /* Seven Container */
 .our-plans{
@@ -183,7 +208,39 @@ section {
     position: absolute;
     bottom: 1rem;
 }
-
+/* footer */
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5rem 0;
+}
+.footer div:first-child {
+    width: 25rem;
+}
+.footer div img {
+    padding-bottom: 2.5rem;
+}
+.footer div p {
+    font-size: 1.3rem;
+    padding: 1rem 0;
+    color: #6e6d6d;
+}
+.footer div h5 {
+    font-size: 2rem;
+    font-weight: 300;
+    color: #008bcb;
+    font-family: roboto;
+}
+/* Copy Right */
+.copyright {
+    display: flex;
+}
+.copyright div {
+    color: #d6d6d6;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+}
 
 /* Reponsive */
 @media (min-width:576px) {
